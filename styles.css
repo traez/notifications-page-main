@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&family=Plus+Jakarta+Sans:ital,wght@0,500;0,800;1,500;1,800&display=swap');
+
+/*
+The designs were created to the following widths:
+- Mobile: 375px
+- Desktop: 1440px
+*/
+:root {
+    --red: hsl(1, 90%, 64%); /*Primary*/
+    --blue: hsl(219, 85%, 26%); /*Primary*/
+    --white: hsl(0, 0%, 100%); /*Neutral*/
+    --very-light-grayish-blue: hsl(210, 60%, 98%); /*Neutral*/
+    --light-grayish-blue-1: hsl(211, 68%, 94%); /*Neutral*/
+    --light-grayish-blue-2: hsl(205, 33%, 90%); /*Neutral*/
+    --grayish-blue: hsl(219, 14%, 63%); /*Neutral*/
+    --dark-grayish-blue: hsl(219, 12%, 42%); /*Neutral*/
+    --very-dark-blue: hsl(224, 21%, 14%); /*Neutral*/
+      }
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    utline: 1px solid black; 
+}
+html{
+    display: flex;
+    flex-flow: column;
+    justify-content: center; 
+    align-items: center;
+    height:100%;
+    width: 100%;
+    font-family: 'Plus Jakarta Sans';
+    overflow: scroll;
+    }
+body{
+    border: 1px solid var(--grayish-blue); 
+    padding:0.2rem;
+    border-radius: 0.5rem;
+}
+main{
+        width: 19rem;
+        height: 45rem;
+        display:grid;
+        grid-template: 1fr 8fr 1fr/auto;
+        grid-template-areas:
+        "top"
+        "middle"
+        "bottom";
+    }
+nav{
+    grid-area: top;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+        }
+header{
+    display: flex;
+    flex-direction: row;
+    gap:0.3rem;
+    font-size: 1rem;
+}
+h2{
+    background-color: var(--blue);
+    color:var(--white);
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+}
+h3{
+    font-size: 0.8rem;
+    color:var(--dark-grayish-blue);
+    cursor: pointer;
+}
+ul{
+        grid-area: middle;
+        display: flex;
+        flex-direction: column; 
+        gap:1rem;
+            }
+li{
+        list-style-type: none;   
+        font-size: 0.8rem;
+        display:grid;
+        grid-template: auto/1fr 4fr;
+        grid-template-areas:
+        "pic ish"; 
+        border-radius: 0.5rem;
+        padding-top:0.5rem;
+        padding-bottom:0.5rem;
+        padding-right: 0.5rem;
+        cursor: pointer;
+    }
+.seen{
+        background-color: var(--very-light-grayish-blue);
+    }
+.new{
+        background-color: var(--light-grayish-blue-1);
+    }
+i{
+    grid-area: pic;
+    background-repeat: no-repeat;
+    background-size: 2rem 2rem;
+    background-position: center;
+}
+b{
+    grid-area: ish;
+}
+.fname{
+    font-weight: 950;
+}
+.action{
+    font-weight: 100;
+    color: var(--dark-grayish-blue);
+}
+.obj{
+    font-weight: 950;
+    color: var(--blue);
+}
+small{
+    font-size: 0.8rem;
+    color: var(--dark-grayish-blue);
+    font-weight: 100;
+    }
+aside{
+    font-size: 0.8rem;
+    border: 1px solid var(--grayish-blue); 
+    border-radius: 0.5rem;
+    }
+.kim{
+    background-image: url(./images/image-chess.webp);
+    background-repeat: no-repeat;
+    background-size: 2rem 2rem;
+    background-position: 95% 0%;
+    height: 2rem;
+}
+.reddot{
+    background-color: var(--red); 
+    border-radius: 50%;
+}
+.hide{
+    display: none;
+}
+.avatar-mark-webber{
+        background-image: url(./images/avatar-mark-webber.webp);
+    }
+.avatar-angela-gray{
+        background-image: url(./images/avatar-angela-gray.webp);
+    }
+.avatar-jacob-thompson{
+        background-image: url(./images/avatar-jacob-thompson.webp);
+    }
+.avatar-rizky-hasanuddin{
+        background-image: url(./images/avatar-rizky-hasanuddin.webp);
+    }
+.avatar-kimberly-smith{
+        background-image: url(./images/avatar-kimberly-smith.webp);
+    }
+.avatar-nathan-peterson{
+        background-image: url(./images/avatar-nathan-peterson.webp);
+    }
+.avatar-anna-kim{
+        background-image: url(./images/avatar-anna-kim.webp);
+    }
+footer{ 
+    grid-area: bottom;    
+    font-size: 0.7rem;
+    text-align:center; 
+    padding-top:0.8rem;
+    }
+@media (min-width: 39em) {
+main{
+        width: 38rem;
+        height: auto;
+    }
+    }
