@@ -34,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/traez/notifications-page-main](https://github.com/traez/notifications-page-main)
+- Live Site URL: [https://traez.github.io/notifications-page-main/](https://traez.github.io/notifications-page-main/)
 
 ## My process
 
@@ -49,7 +49,7 @@ Users should be able to:
 
 ### What I learned
 
-Took a break midway that was unnecessarily long. At times you'd want to jump CSS, but sticking it through helps further solidify learnings. The Javascript didn't stress. Reviewed previous code as guidance and surprisingly pieced this solution together rather quickly.
+Took a break midway that was unnecessarily long. At times you'd want to jump CSS, but sticking it through helps further solidify learnings. The Javascript didn't stress. Reviewed previous code as guidance and surprisingly pieced this solution together rather quickly. Cool beans!
 
 ### Continued development
 
